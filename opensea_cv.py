@@ -8,7 +8,7 @@ url = 'https://api.opensea.io/api/v1/assets?asset_contract_address=0x79986af1553
 querystring = {
    "order_direction":"desc",
    "offset":"0",
-   "limit":"5000"}
+   "limit":"50"}
 
 # add headers/SSL if necessary
 response = requests.request("GET", url, params=querystring)
